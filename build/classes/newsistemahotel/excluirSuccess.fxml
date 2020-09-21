@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newsistemahotel.ExcluirSuccessController">
+   <children>
+      <Label layoutX="17.0" layoutY="61.0" text="CLIENTE EXCLUÍDO COM SUCESSO!">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="135.0" layoutY="119.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="OK" fx:id="voltar" onAction="#voltar"/>
+   </children>
+</Pane>

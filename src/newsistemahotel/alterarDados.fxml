@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newsistemahotel.AlterarDadosController">
+   <children>
+      <Button id="alterarButton" fx:id="alterarButton" layoutX="451.0" layoutY="424.0" mnemonicParsing="false" onAction="#alterar" text="FINALIZAR ALTERAÇÃO" />
+      <TextField layoutX="121.0" layoutY="56.0" prefHeight="25.0" prefWidth="448.0" fx:id="nome"/>
+      <Label layoutX="167.0" layoutY="14.0" text="ALTERAR DADOS DO CLIENTE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="58.0" prefHeight="21.0" prefWidth="54.0" text="NOME:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="121.0" layoutY="90.0" prefHeight="25.0" prefWidth="448.0" fx:id="rg"/>
+      <TextField layoutX="121.0" layoutY="125.0" prefHeight="25.0" prefWidth="448.0" fx:id="endereco" />
+      <Label layoutX="73.0" layoutY="92.0" prefHeight="21.0" prefWidth="27.0" text="RG:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="127.0" prefHeight="21.0" prefWidth="83.0" text="ENDEREÇO:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="302.0" text="DADOS DE ACOMODAÇÃO DO CLIENTE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="105.0" layoutY="344.0" prefHeight="25.0" prefWidth="462.0" fx:id="tipo" />
+      <TextField layoutX="105.0" layoutY="377.0" prefHeight="25.0" prefWidth="462.0" fx:id="descricao" />
+      <Label layoutX="53.0" layoutY="346.0" prefHeight="21.0" prefWidth="40.0" text="TIPO:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="379.0" prefHeight="21.0" prefWidth="83.0" text="DESCRIÇÃO:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="190.0" text="DADOS DA RESERVA DO CLIENTE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="165.0" layoutY="230.0" prefHeight="25.0" prefWidth="402.0" fx:id="dataEntrad" />
+      <TextField layoutX="165.0" layoutY="263.0" prefHeight="25.0" prefWidth="402.0" fx:id="dataSaida" />
+      <Label layoutX="17.0" layoutY="232.0" prefHeight="21.0" prefWidth="136.0" text="DATA DE ENTRADA:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="265.0" prefHeight="21.0" prefWidth="136.0" text="DATA DE SAÍDA:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="122.0" layoutY="158.0" prefHeight="25.0" prefWidth="448.0" fx:id="telefone" />
+      <Label layoutX="31.0" layoutY="160.0" prefHeight="21.0" prefWidth="83.0" text="TELEFONE:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

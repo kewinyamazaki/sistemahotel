@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="193.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newsistemahotel.FXMLDocumentController">
+   <children>
+      <Button layoutX="58.0" layoutY="109.0" mnemonicParsing="false" onAction="#cadastrarCliente" prefHeight="25.0" prefWidth="142.0" text="CADASTRAR CLIENTE" />
+      <Label layoutX="175.0" layoutY="29.0" text="SISTEMA HOTEL">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="241.0" layoutY="109.0" mnemonicParsing="false" onAction="#pesquisarCliente" prefHeight="25.0" prefWidth="124.0" text="PESQUISAR CLIENTE" />
+      <Button layoutX="425.0" layoutY="109.0" mnemonicParsing="false" onAction="#sair" prefHeight="25.0" prefWidth="124.0" text="SAIR"/>
+   </children>
+</Pane>

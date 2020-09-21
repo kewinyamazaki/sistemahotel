@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="334.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newsistemahotel.ClienteSuccessController">
+   <children>
+      <Button layoutX="137.0" layoutY="128.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="OK" id="buttonSuccess" fx:id="buttonSuccess" onAction="#success"/>
+      <Label layoutX="9.0" layoutY="69.0" text="CLIENTE CADASTRADO COM SUCESSO!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="220.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newsistemahotel.FecharSuccessController">
+   <children>
+      <Button layoutX="135.0" layoutY="125.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="OK" fx:id="fecharB" onAction="#fechar"/>
+      <Label layoutX="20.0" layoutY="63.0" text="CONTA FECHADA COM SUCESSO!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
